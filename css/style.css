@@ -1,0 +1,36 @@
+/*
+* 
+* @author Josiley Cesario Praxedes
+*/
+
+/* Layout */
+body {
+    background: url(../img/capa.png),
+                url(../img/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+
+/* barra de navegação */
+nav.navbar-transparente{
+    padding: 0px, 15px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.divisor {
+    width: 1px;
+    background: #ffffff;
+}
