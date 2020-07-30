@@ -1,6 +1,6 @@
 /*
 * 
-* @author Josiley Cesario Praxedes
+* @author Josiley Cesario Praxedes Alvim
 */
 
 /* Layout */
@@ -46,6 +46,47 @@ nav.navbar-transparente{
     text-align: center;
 }
 
+.btn-custom {
+    color: #ffffff;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 15px;
+}
+
+.btn-roxo{
+    background: #7c25f8;
+}
+
+.btn-roxo:hover {
+    background: #6207e3;
+    color: #ffffff;
+}
+
+.btn-branco{
+    border: 2px solid #ffffff;
+}
+
+.btn-branco:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+/* Conteúdo */
+#servicos {
+    background: #ffffff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#servicos h2, h3{
+    margin-bottom: 10px;
+    color: #7c25f8;
+}
+
+/* tipografia */
 h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
@@ -53,10 +94,34 @@ h1 {
     color: #ffffff;
 }
 
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     h1{
         font-size: 3em;
+    }
+
+    .btn-custom {
+        color: #ffffff;
+        border-radius: 500px;
+        -webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        text-transform: uppercase;
+        transition: background 0.4s, color 0.4s;
+        padding: 10px 15px;
+        margin: 5px 10px;
     }
 }
 
@@ -65,17 +130,36 @@ h1 {
     h1{
         font-size: 3em;
     }
+
+    .btn-custom {
+        color: #ffffff;
+        border-radius: 500px;
+        -webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        text-transform: uppercase;
+        transition: background 0.4s, color 0.4s;
+        padding: 10px 15px;
+        margin: 5px 10px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
     h1{
-        font-size: 3em;
+        font-size: 4em;
     }
- }
+}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1{
+    font-size: 5em;
+    } 
+}
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { 
+    h1{
+        font-size: 6em;
+    }
+}
